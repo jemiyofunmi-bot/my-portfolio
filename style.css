@@ -1094,7 +1094,7 @@ body {
   .about-text, .about-image {
     width: 100%;
   }
-
+  
   /* Services */
   .services-container {
     flex-direction: column;
@@ -1129,4 +1129,20 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+}
+@media (max-width: 600px) {
+    .hero-content h1 {
+        font-size: 32px;
+    }
+    .btn-primary, .btn-secondary {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .logo {
+        font-size: 24px;
+        /* display: none; */
+    }
+    .logo span{
+        /* display: none; */
+    }
 }
