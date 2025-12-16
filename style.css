@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif; /* Using Poppins as defined in HTML */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #f4f7fa; /* Light background color */
     color: #333;
